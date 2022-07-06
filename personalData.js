@@ -7,10 +7,13 @@ export default {
   headerTaglineFour: " ",
 
   socials: [
-    { title: "Github", link: "https://github.com/yuheong" },
+    { title: "GitHub", link: "https://github.com/yuheong" },
     { title: "LinkedIn", link: "https://www.linkedin.com/in/yuheong" },
     { title: "Email", link: "mailto:yuhe.ong@gmail.com" },
-    { title: "Resume", link: "" },
+    {
+      title: "Resume",
+      link: "https://drive.google.com/file/d/1_r8kqsJi13-KtQvlU6ZvMObDizesHlDZ/view?usp=sharing",
+    },
   ],
 
   experiences: [
@@ -73,37 +76,34 @@ export default {
   projects: [
     {
       title: "Hero Deploy", //Project Title - Add Your Project Title Here
-      description: "UofTHacks VII Hackathon - First Place",
+      description:
+        "Hero - A full-fledged platform to empower community members to assist in emergencies. Won first place at UofTHacks VII Hackathon",
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        "images/hero-app.jpeg",
+      imageSrc: "images/hero-app.jpeg",
       //Project URL - Add Your Project Url Here
       url: "https://github.com/uofthacksvii-heroes/hero-deploy",
     },
     {
       title: "Adhoccer", //Project Title - Add Your Project Title Here
-      description: "Web Development",
+      description: "An adhoc jobs creation platform built with the MERN stack",
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        "images/adhoccer.png",
+      imageSrc: "images/adhoccer.png",
       //Project URL - Add Your Project Url Here
       url: "https://github.com/yuheong",
     },
     {
-      title: "Interaction Design Project - Zoom Redesign", //Project Title - Add Your Project Title Here
-      description: "UI/UX Course",
+      title: "Zoom 2.0 Redesign", //Project Title - Add Your Project Title Here
+      description: "Course project for Interaction Design module - Redesigning of Zoom",
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        "images/zoom_redesign.png",
+      imageSrc: "images/zoom_redesign.png",
       //Project URL - Add Your Project Url Here
       url: "https://zoom-ux-redesign.medium.com/zoom-2-0-redesigning-zoom-for-better-classroom-engagement-f6729ae31d63",
     },
     {
       title: "GoKartYourself", //Project Title - Add Your Project Title Here
-      description: "Game Development Project in Unity",
+      description: "Game Development Project in Unity - Achieved Project Gemini for Orbital 2018",
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        "images/gokartyourself.png",
+      imageSrc: "images/gokartyourself.png",
       //Project URL - Add Your Project Url Here
       url: "https://github.com/yuheong",
     },
