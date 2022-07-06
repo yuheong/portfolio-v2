@@ -72,38 +72,38 @@ export default {
 
   projects: [
     {
-      title: "Project One", //Project Title - Add Your Project Title Here
-      description: "Web Design",
+      title: "Hero Deploy", //Project Title - Add Your Project Title Here
+      description: "UofTHacks VII Hackathon - First Place",
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        "images/hero-app.jpeg",
       //Project URL - Add Your Project Url Here
-      url: "https://github.com/yuheong",
+      url: "https://github.com/uofthacksvii-heroes/hero-deploy",
     },
     {
-      title: "Project Two", //Project Title - Add Your Project Title Here
+      title: "Adhoccer", //Project Title - Add Your Project Title Here
       description: "Web Development",
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
+        "images/adhoccer.png",
       //Project URL - Add Your Project Url Here
       url: "https://github.com/yuheong",
     },
     {
-      title: "Project Three", //Project Title - Add Your Project Title Here
-      description: "Design",
+      title: "Interaction Design Project - Zoom Redesign", //Project Title - Add Your Project Title Here
+      description: "UI/UX Course",
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        "images/zoom_redesign.png",
       //Project URL - Add Your Project Url Here
-      url: "https://github.com/yuheong",
+      url: "https://zoom-ux-redesign.medium.com/zoom-2-0-redesigning-zoom-for-better-classroom-engagement-f6729ae31d63",
     },
     {
-      title: "Project Four", //Project Title - Add Your Project Title Here
-      description: "Marketing",
+      title: "GoKartYourself", //Project Title - Add Your Project Title Here
+      description: "Game Development Project in Unity",
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        "images/gokartyourself.png",
       //Project URL - Add Your Project Url Here
       url: "https://github.com/yuheong",
     },
