@@ -93,7 +93,8 @@ export default {
     },
     {
       title: "Zoom 2.0 Redesign", //Project Title - Add Your Project Title Here
-      description: "Course project for Interaction Design module - Redesigning of Zoom",
+      description:
+        "Course project for Interaction Design module - Redesigning of Zoom",
       //Project Image - Add Your Project Image Here
       imageSrc: "images/zoom_redesign.png",
       //Project URL - Add Your Project Url Here
@@ -101,27 +102,10 @@ export default {
     },
     {
       title: "GoKartYourself", //Project Title - Add Your Project Title Here
-      description: "Game Development Project in Unity - Achieved Project Gemini for Orbital 2018",
+      description:
+        "Game Development Project in Unity - Achieved Project Gemini for Orbital 2018",
       //Project Image - Add Your Project Image Here
       imageSrc: "images/gokartyourself.png",
-      //Project URL - Add Your Project Url Here
-      url: "https://github.com/yuheong",
-    },
-    {
-      title: "Project Five", //Project Title - Add Your Project Title Here
-      description: "Development",
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
-      url: "https://github.com/yuheong",
-    },
-    {
-      title: "Project Six", //Project Title - Add Your Project Title Here
-      description: "Design & Development",
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
       //Project URL - Add Your Project Url Here
       url: "https://github.com/yuheong",
     },
