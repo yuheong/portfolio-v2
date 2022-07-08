@@ -112,6 +112,7 @@ export default {
   ],
 
   aboutpara:
-    "I'm a Computer Science student with an interest in software engineering and all things tech - from the latest gadgets to applications of technology to improve lives around the world. " +
+    "I'm a software engineer with a degree in Computer Science from the National University of Singapore. " +
+    "I have a keen interest in software engineering and all things tech - from the latest gadgets to applications of technology to improve lives around the world. " +
     "During my free time, I love to play games, engage in sports, travel and hang out with friends.",
 };
