@@ -16,7 +16,7 @@ const Socials = ({ className }) => {
           key={index}
         >
           <Button>
-            <div className="flex items-baseline">
+            <div className="flex items-baseline px-1">
               <span className="mr-2">{getIcon(social.title)}</span>
               <span className="text-lg">{social.title}</span>
             </div>

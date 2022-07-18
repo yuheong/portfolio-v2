@@ -89,7 +89,7 @@ export default {
       //Project Image - Add Your Project Image Here
       imageSrc: "images/adhoccer.png",
       //Project URL - Add Your Project Url Here
-      url: "https://github.com/yuheong",
+      url: "https://github.com/yuheong/mern-adhoccer",
     },
     {
       title: "Zoom 2.0 Redesign", //Project Title - Add Your Project Title Here

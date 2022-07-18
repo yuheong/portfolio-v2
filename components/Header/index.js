@@ -8,6 +8,7 @@ const Header = ({
   handleEduScroll,
   handleProjectsScroll,
   handleAboutScroll,
+  handleContactAction,
   isBlog,
 }) => {
   const router = useRouter();
@@ -25,16 +26,12 @@ const Header = ({
           <Button onClick={handleEduScroll}>Education</Button>
           <Button onClick={handleProjectsScroll}>Projects</Button>
           <Button onClick={handleAboutScroll}>About</Button>
-          <Button onClick={() => window.open("mailto:yuhe.ong@gmail.com")}>
-            Contact
-          </Button>
+          <Button onClick={handleContactAction}>Contact</Button>
         </div>
       ) : (
         <div className="flex">
           <Button onClick={() => router.push("/")}>Home</Button>
-          <Button onClick={() => window.open("mailto:yuhe.ong@gmail.com")}>
-            Contact
-          </Button>
+          <Button onClick={handleContactAction}>Contact</Button>
         </div>
       )}
     </div>

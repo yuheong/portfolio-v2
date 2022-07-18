@@ -18,6 +18,7 @@ export default function Home() {
   const educationRef = useRef();
   const portfolioRef = useRef();
   const aboutRef = useRef();
+  const contactRef = useRef();
   const textOne = useRef();
   const textTwo = useRef();
   const textThree = useRef();
@@ -51,22 +52,24 @@ export default function Home() {
           handleEduScroll={() => handleScroll(educationRef)}
           handleProjectsScroll={() => handleScroll(portfolioRef)}
           handleAboutScroll={() => handleScroll(aboutRef)}
+          handleContactAction={() => handleScroll(contactRef)}
         />
         <div className="laptop:mt-20 mob:mt-10">
-          <div className="mt-5">
-            <h1
-              ref={textOne}
-              className="text-8xl mob:text-3xl laptop:text-8xl mob:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5"
-            >
-              {data.headerTaglineOne}
-            </h1>
-            <h1
-              ref={textTwo}
-              className="text-8xl mob:text-3xl laptop:text-8xl mob:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5"
-            >
-              {data.headerTaglineTwo}
-            </h1>
-            {/* <h1
+          <div className="flex flex-row items-end">
+            <div className="mt-5">
+              <h1
+                ref={textOne}
+                className="text-8xl mob:text-3xl laptop:text-8xl mob:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5"
+              >
+                {data.headerTaglineOne}
+              </h1>
+              <h1
+                ref={textTwo}
+                className="text-8xl mob:text-3xl laptop:text-8xl mob:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5"
+              >
+                {data.headerTaglineTwo}
+              </h1>
+              {/* <h1
               ref={textThree}
               className="text-8xl mob:text-3xl laptop:text-8xl mob:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5">
               {data.headerTaglineThree}
@@ -76,6 +79,8 @@ export default function Home() {
               className="text-8xl mob:text-3xl laptop:text-8xl mob:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5">
               {data.headerTaglineFour}
             </h1> */}
+            </div>
+            <img className="w-6/12 mb-16 mr-2" src="images/me.png" />
           </div>
 
           <Socials className="mt-5 mob:mt-2 laptop:mt-5" />
@@ -125,7 +130,7 @@ export default function Home() {
                 img={project.imageSrc}
                 name={project.title}
                 description={project.description}
-                onClick={() => window.open(project.url)}
+                url={project.url}
               />
             ))}
           </div>
@@ -139,7 +144,9 @@ export default function Home() {
             {data.aboutpara}
           </p>
         </div>
-        <Footer />
+        <div ref={contactRef}>
+          <Footer />
+        </div>
       </div>
     </>
   );
