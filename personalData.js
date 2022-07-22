@@ -75,6 +75,15 @@ export default {
 
   projects: [
     {
+      title: "Adhocado", //Project Title - Add Your Project Title Here
+      description:
+        "A social calendar app that helps you to find time for the people who matter. Awarded Venture Initiation Programme (VIP) Grant of $10,000 from the National University of Singapore.",
+      //Project Image - Add Your Project Image Here
+      imageSrc: "images/adhocado.webp",
+      //Project URL - Add Your Project Url Here
+      url: "https://www.adhocado.com",
+    },
+    {
       title: "Hero Deploy", //Project Title - Add Your Project Title Here
       description:
         "Hero - A full-fledged platform to empower community members to assist in emergencies. Won first place at UofTHacks VII Hackathon",
