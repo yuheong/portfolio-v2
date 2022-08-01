@@ -86,15 +86,24 @@ export default {
     {
       title: "Hero Deploy", //Project Title - Add Your Project Title Here
       description:
-        "Hero - A full-fledged platform to empower community members to assist in emergencies. Won first place at UofTHacks VII Hackathon",
+        "Hero - A full-fledged platform to empower community members to assist in emergencies. Won first place at UofTHacks VII Hackathon.",
       //Project Image - Add Your Project Image Here
       imageSrc: "images/hero-app.jpeg",
       //Project URL - Add Your Project Url Here
       url: "https://github.com/uofthacksvii-heroes/hero-deploy",
     },
     {
+      title: "Cycloud", //Project Title - Add Your Project Title Here
+      description:
+        "Cycloud provides cyclists with the most up-to-date information they need, including cyclist-friendly routes, cycling traffic and the best spots along their way as they navigate through sunny Singapore on their two-wheelers. Built with React, Leaflet, AWS Amplify, AWS Lambda and Google Cloud AutoML.",
+      //Project Image - Add Your Project Image Here
+      imageSrc: "images/cycloud.png",
+      //Project URL - Add Your Project Url Here
+      url: "https://github.com/yuheong/cycloud-frontend",
+    },
+    {
       title: "Adhoccer", //Project Title - Add Your Project Title Here
-      description: "An adhoc jobs creation platform built with the MERN stack",
+      description: "An adhoc jobs creation platform built with the MERN (MongoDB, Express, React, Node) stack.",
       //Project Image - Add Your Project Image Here
       imageSrc: "images/adhoccer.png",
       //Project URL - Add Your Project Url Here
@@ -116,7 +125,7 @@ export default {
       //Project Image - Add Your Project Image Here
       imageSrc: "images/gokartyourself.png",
       //Project URL - Add Your Project Url Here
-      url: "https://github.com/yuheong",
+      url: "",
     },
   ],
 
