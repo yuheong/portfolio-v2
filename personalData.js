@@ -2,8 +2,7 @@ export default {
   name: "yuhe",
   headerTaglineOne: "Hello 👋",
   headerTaglineTwo:
-    "I'm Yuhe - an optimistic and driven software developer from Singapore.",
-  headerTaglineThree: "",
+    "I'm Yuhe - a passionate software engineer crafting digital experiences that matter.",
   headerTaglineFour: " ",
 
   socials: [
@@ -12,18 +11,41 @@ export default {
     { title: "Email", link: "mailto:yuhe.ong@gmail.com" },
     {
       title: "Resume",
-      link: "https://drive.google.com/file/d/1_r8kqsJi13-KtQvlU6ZvMObDizesHlDZ/view?usp=sharing",
+      link: "https://drive.google.com/file/d/1G8LQK_koV3G8wPBvMftk1B6lvGfNn47x/view?usp=sharing",
     },
   ],
 
+  skills: [
+    {
+      category: "Frontend",
+      technologies: ["React", "Next.js", "TypeScript", "HTML/CSS", "React Native", "Unity", "UI/UX Design"]
+    },
+    {
+      category: "Backend",
+      technologies: ["Node.js", "Express", "Python", "Java", "MongoDB", "SQL"]
+    },
+    {
+      category: "DevOps & Tools",
+      technologies: ["AWS", "Docker", "Git", "CI/CD", "Agile"]
+    }
+  ],
+
   experiences: [
+    {
+      title: "Senior Software Engineer",
+      companyName: "OKX",
+      location: "Singapore",
+      description:
+        "Worked on the OKX Instant Messaging Platform, which is a crypto-native messaging app that allows users to send and receive messages, images, and videos.",
+      years: "September 2022 - Present",
+    },
     {
       title: "Full-Stack Developer",
       companyName: "ViSenze",
       location: "Singapore",
       description:
         "Worked within an agile engineering team as a full-stack engineer, primarily tasked with developing new projects that help B2B customers work with the internal machine learning tools that the company develops for various ecommerce and fashion-related workflows.",
-      years: "May 2021 - Present",
+      years: "May 2021 - July 2022",
     },
     {
       title: "Software Engineer Intern",
@@ -130,7 +152,8 @@ export default {
   ],
 
   aboutpara:
-    "I'm a software engineer with a degree in Computer Science from the National University of Singapore. " +
-    "I have a keen interest in software engineering and all things tech - from the latest gadgets to applications of technology to improve lives around the world. " +
-    "During my free time, I love to play games, engage in sports, travel and hang out with friends.",
+    "I'm a software engineer with a degree in Computer Science from the National University of Singapore, passionate about creating impactful digital solutions. " +
+    "With experience in both startups and established companies, I've developed a versatile skill set spanning full-stack development, mobile apps, and emerging technologies. " +
+    "I believe in writing clean, maintainable code and building products that solve real-world problems. " +
+    "When I'm not coding, you'll find me exploring new technologies, travelling, or enjoying a good time with friends.",
 };

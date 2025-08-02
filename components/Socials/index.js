@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "../Button";
 import { FaGithub, FaLinkedin, FaFileDownload } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
@@ -7,20 +6,21 @@ import myData from "../../personalData";
 
 const Socials = ({ className }) => {
   return (
-    <div className={`${className} flex`}>
+    <div className={`${className} flex gap-4`}>
       {myData.socials.map((social, index) => (
         <a
           href={social.link}
           target="_blank"
           rel="noopener noreferrer"
           key={index}
+          className="group"
         >
-          <Button>
-            <div className="flex items-baseline px-1">
-              <span className="mr-2">{getIcon(social.title)}</span>
-              <span className="text-lg">{social.title}</span>
-            </div>
-          </Button>
+          <div className="flex items-center gap-2 px-4 py-2 rounded-xl glass-effect text-gray-700 hover:bg-white/90 transition-all duration-300 hover:scale-105">
+            <span className="text-xl group-hover:scale-110 transition-transform duration-200">
+              {getIcon(social.title)}
+            </span>
+            <span className="font-medium">{social.title}</span>
+          </div>
         </a>
       ))}
     </div>
