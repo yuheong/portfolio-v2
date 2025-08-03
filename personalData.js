@@ -22,7 +22,7 @@ export default {
     },
     {
       category: "Backend",
-      technologies: ["Node.js", "Express", "Python", "Java", "MongoDB", "SQL"]
+      technologies: ["Java", "Spring Boot", "Node.js", "Express", "Python", "Django", "MongoDB", "SQL"]
     },
     {
       category: "DevOps & Tools",
@@ -32,7 +32,7 @@ export default {
 
   experiences: [
     {
-      title: "Senior Software Engineer",
+      title: "Senior Backend Engineer",
       companyName: "OKX",
       location: "Singapore",
       description:
@@ -48,7 +48,7 @@ export default {
       years: "May 2021 - July 2022",
     },
     {
-      title: "Software Engineer Intern",
+      title: "Software Engineer",
       companyName: "Blockthrough",
       location: "Toronto, Canada",
       description:

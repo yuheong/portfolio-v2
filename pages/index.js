@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import Image from "next/image";
 import Header from "../components/Header";
 import Socials from "../components/Socials";
 import WorkCard from "../components/WorkCard";
@@ -49,15 +50,15 @@ export default function Home() {
         <title>{data.name}</title>
         <meta name="description" content="Yuhe's Portfolio - Software Engineer" />
       </Head>
+      <Header
+        handleWorkScroll={() => handleScroll(workRef)}
+        handleEduScroll={() => handleScroll(educationRef)}
+        handleSkillsScroll={() => handleScroll(skillsRef)}
+        handleProjectsScroll={() => handleScroll(portfolioRef)}
+        handleAboutScroll={() => handleScroll(aboutRef)}
+        handleContactAction={() => handleScroll(contactRef)}
+      />
       <div className="container mx-auto mb-10 px-4">
-        <Header
-          handleWorkScroll={() => handleScroll(workRef)}
-          handleEduScroll={() => handleScroll(educationRef)}
-          handleSkillsScroll={() => handleScroll(skillsRef)}
-          handleProjectsScroll={() => handleScroll(portfolioRef)}
-          handleAboutScroll={() => handleScroll(aboutRef)}
-          handleContactAction={() => handleScroll(contactRef)}
-        />
         
         {/* Hero Section */}
         <div className="laptop:mt-20 mob:mt-10">
@@ -76,8 +77,14 @@ export default function Home() {
                 {data.headerTaglineTwo}
               </h1>
             </div>
-            <div className="w-6/12 mb-16 mr-2 bg-white p-8 rounded-2xl shadow-lg">
-              <img className="w-full" src="images/me.png" />
+            <div className="w-7/12 mb-16 mr-2 bg-white p-8 rounded-2xl shadow-lg">
+              <Image
+                src="/images/me.png"
+                alt="Yuhe Ong"
+                width={500}
+                height={500}
+                className="w-full"
+              />
             </div>
           </div>
 
